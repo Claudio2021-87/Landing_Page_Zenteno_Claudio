@@ -1,0 +1,175 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+body {
+	background: #5A04A9;
+}
+
+.navegacion {
+	position: relative;
+	top: -30px;
+	right: 40%: 
+	width:1348px;
+	margin: 30px auto;
+	background: #fff;
+}
+
+.navegacion ul {
+	list-style: none;
+}
+
+.menu > li {
+	position: relative;
+	left: 66px;
+	display: inline-block;
+	}
+
+.menu > li > a{
+	display:block;
+	padding: 25px 35px;
+	color: #5A04A9;
+	font-family: "Open sans";
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color:#CE7E99;
+	transition: all .3s;
+}
+
+/* Submenu */
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 110%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color:#fff;
+	font-family: "Open Sans";
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility:visible;
+	opacity:1;
+}
+
+h1 {
+	margin:100px;
+	font-family: "Orbitron";
+	font-size:50px;
+	width: 570px;
+	color:#fff;
+	left: :100;
+	text-shadow: 10px 10px 9px #000000;
+
+}
+
+img{
+	position: relative;
+	top: -330px;
+	right: 5%;
+	width: 550px; height: 320px;
+	float: right;
+}
+	
+
+h2 {
+	margin: 50px;
+	font-family: "Orbitron";
+	font-size: 20px;
+	width: 550px;
+	color:#fff;
+	left: 50px;
+	position: relative;
+	top: -50px;
+
+
+}
+.texto {
+	margin: 100px;
+	padding: 0px;
+	width: 530px;
+	height: 280px;
+	line-height: 27px;
+	font-size: 21px;
+	font-family: "Times New Roman";
+	font-weight: normal;
+	position: relative;
+	top: 80px;
+	background: #5A04A9;
+	font-size: #fff;
+}
+.texto2 {
+	margin: 10px;
+	padding: 0px;
+	width: 549px;
+	height: 0px;
+	line-height: 27px;
+	font-family: "Times New Roman";
+	font-weight: normal;
+	position: relative;
+	left:700px;
+	top: -301px;
+	background: #5A04A9;
+	font-size:21px;
+
+
+}
+p {
+	background:#5A04A9;
+color:#fff;
+}
+.texto3 {
+	margin: 100px;
+	padding: 0px;
+	width: 850px;
+	height: 450px;
+	line-height: 25px;
+	font-size: 30px;
+	font-family: "Cordia New";
+	text-align: center;
+	font-weight: normal;
+	position: relative;
+	top: 150px;
+	left: 130px;
+	background: #5A04A9;
+	font-size: #fff;
+}
+
+.navegacion2 {
+	position: relative;
+	top: -30px;
+	right: 40%: 
+	width:1348px;
+	margin: 30px auto;
+	background: #fff;
+}
+
+.navegacion2 ul {
+	list-style: none;
+}
+
+.menu2 > li {
+	position: relative;
+	left:430px;
+	display: inline-block;
+	}
+
+.menu2 > li > a{
+	display:block;
+	padding: 25px 35px;
+	color: #000000;
+	font-family: "Agency FB";
+	text-decoration: none;
+	font-size: 23px;
+}
